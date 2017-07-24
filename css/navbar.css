@@ -1,0 +1,55 @@
+/* 
+Navigation Bar Stylesheet
+v1.0
+Last Updated: 19-08-2013
+Author: Aidan Mischke
+*/
+
+.navbar {
+background : #5F7A1E;
+float : left;
+text-align : center;
+border-top : 1px solid #839158;
+border-left : 1px solid #69793e;
+}
+.navbar:first-child {
+border-left : 0 none;
+}
+.navbar ul li a {
+display : block;
+padding : 10px 20px;
+color : white;
+border-top : 1px solid rgba(255, 255, 255, 0.25);
+border-left : 1px solid rgba(255, 255, 255, 0.25);
+text-shadow : 0 -1px 0 #000;
+text-decoration:none;
+}
+.navbar a:hover {
+background : #4d5d20;
+}
+.youarehere {
+font-family : 'Cabin', Calibri, Trebuchet, sans-serif;
+font-size : medium;
+background : #6C000A;
+display : block;
+padding : 10px 20px;
+color : #fff;
+border-top : 1px solid rgba(255, 255, 255, 0.25);
+border-left : 1px solid rgba(255, 255, 255, 0.25);
+}
+nav {
+display : table;
+width : 100%;
+border-collapse : collapse;
+border : none;
+}
+nav ul {
+display : table-row;
+}
+nav li {
+display : table-cell;
+margin : 0;
+/* Override bullets styling */
+background : None;
+padding : 0px;
+}
