@@ -53,3 +53,12 @@ margin : 0;
 background : None;
 padding : 0px;
 }
+.hidden-nav-item {
+font-family : 'Cabin', Calibri, Trebuchet, sans-serif;
+font-size : medium;
+display : block;
+padding : 10px 20px;
+color : #5F7A1E;
+border-top : 1px solid rgba(255, 255, 255, 0.25);
+border-left : 1px solid rgba(255, 255, 255, 0.25);
+}
